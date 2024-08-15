@@ -7,7 +7,7 @@ To run this Bottle Art Game locally, follow these steps:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/bottle-art-game.git
+    git clone https://github.com/Sarah-Basil/bottle-art-game.git
     cd bottle-art-game
     ```
 
