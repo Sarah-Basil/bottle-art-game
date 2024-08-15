@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 144 144">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-3 {
+        fill: url(#New_Pattern);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-8152.88" y1="-24233.66" x2="-8141.63" y2="-24233.66" gradientTransform="translate(8166.69 -24207.74) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#44bded"/>
+      <stop offset=".15" stop-color="#41aee1"/>
+      <stop offset=".43" stop-color="#3b87c3"/>
+      <stop offset=".82" stop-color="#304994"/>
+      <stop offset="1" stop-color="#2c2b7d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-8165.84" x2="-8154.59" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-8146.4" y1="-24220.7" x2="-8135.15" y2="-24220.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-8159.36" y1="-24220.7" x2="-8148.11" y2="-24220.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-8172.32" y1="-24220.7" x2="-8161.07" y2="-24220.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" y1="-24207.74" y2="-24207.74" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="-8165.84" y1="-24207.74" x2="-8154.59" y2="-24207.74" xlink:href="#linear-gradient"/>
+    <pattern id="New_Pattern" data-name="New Pattern" x="0" y="0" width="25.92" height="25.92" patternUnits="userSpaceOnUse" viewBox="0 0 25.92 25.92">
+      <g>
+        <rect class="cls-5" x="0" y="0" width="25.92" height="25.92"/>
+        <circle class="cls-8" cx="19.44" cy="25.92" r="5.63"/>
+        <circle class="cls-1" cx="6.48" cy="25.92" r="5.63"/>
+        <circle class="cls-7" cx="25.92" cy="12.96" r="5.63"/>
+        <circle class="cls-9" cx="12.96" cy="12.96" r="5.63"/>
+        <circle class="cls-4" cx="0" cy="12.96" r="5.63"/>
+        <circle class="cls-2" cx="19.44" cy="0" r="5.63"/>
+        <circle class="cls-6" cx="6.48" cy="0" r="5.63"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect class="cls-3" width="144" height="144"/>
+</svg>
