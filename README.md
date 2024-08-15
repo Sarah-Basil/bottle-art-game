@@ -6,16 +6,23 @@ This is a small game (in progress) that I had made to accompany my main bottle a
 To run this Bottle Art Game locally, follow these steps:
 
 1. **Clone the Repository:**
+   On your local command line/terminal, you can do the following to clone the repository: 
     ```bash
     git clone https://github.com/Sarah-Basil/bottle-art-game.git
     cd bottle-art-game
     ```
 
-2. **Open the Project:**
-    - Navigate to the project folder and open the `index.html` file in your web browser.
-    - Alternatively, you can use a local server (like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for VS Code) to run the game.
+3. **Open the Project:**
+   I tried to do this two ways: 
+    - If you have python installed, you can do the following to start a local host:
+    ```bash
+    git clone https://github.com/Sarah-Basil/bottle-art-game.git
+    cd bottle-art-game
+    ```
+    After that, you can open your web browser and go to http://localhost:8000/index.html
+    - Alternatively (and the method I use for its simplicity): you can use a local server (like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for VS Code) to run the game. In VSCode, after you install the Live Server extension, you can simply open the html file, and click on the live server button below to open the mini game in a web browser. 
 
-3. **Game Files:**
+5. **Game Files:**
     - The project contains the following files:
       - `index.html`: The main HTML file.
       - `styles.css`: The CSS file for styling the game.
