@@ -1,0 +1,277 @@
+body {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #003366; /* dark blue */
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #003366; /* dark blue */
+}
+
+#title-screen {
+    display: block;
+}
+
+#title-screen h1 {
+    margin-bottom: 20px; /* add some space between title and image */
+}
+
+#title-screen img {
+    display: block;
+    margin-bottom: 20px; /* add some space between image and play button */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title-screen button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bottle {
+    width: 100px;
+    height: auto;
+    transition: all 0.3s ease;
+    background-color: transparent; /* default color */
+    border-radius: 10px; /* rounded corners */
+    position: relative; /* set position to relative for z-index to work */
+    margin: 10px;  /* provide some margin to create space between items */
+
+}
+
+.bottle:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 1; /* ensure hovered bottle appears above others */
+}
+
+.bottle.selected {
+    transform: scale(1.3);
+    background-color: rgba(255, 255, 255, 0.2); /* changes when selected */
+    z-index: 1; /* ensure selected bottle appears above others */
+}
+
+
+.svg-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+.bottle.selected .svg-container {
+    transform: none; /* Remove scaling for selected bottle on color selection screen */
+}
+
+
+.final-selected:hover {
+    transform: none;
+}
+
+.bg {
+  fill: #fff;
+  transition: fill 0.5s ease-in-out;
+}
+
+.svg-selected .bg {
+  fill: lightblue;
+}
+
+.reset .bg {
+  fill: #fff;
+}
+
+
+button {
+    border-radius: 30px; /* make buttons rounded */
+    background-color: #92f0e0; /* light blue/turquoise background color */
+    color: #175c50; /* dark colored turquoise text */
+    border: none; /* remove the default border */
+    transition: 0.3s all ease; /* smooth transition for hover and active states */
+    font-size: 30px;    /* Increase font size */
+    padding: 20px;      /* Increase padding */
+    margin: 20px;       /* Increase margin */
+}
+
+button:hover {
+    background-color: #175c50; /* dark colored turquoise background color on hover */
+    color: #92f0e0; /* light blue/turquoise text on hover */
+}
+
+button:active {
+    transform: scale(0.95); /* slightly scale down the button when pressed */
+}
+
+#title-screen {
+    display: block;
+}
+
+#bottle-selection-screen, #color-selection {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bottle-selection-screen > div, #color-selection > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+}
+
+#selected-bottle-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+#selected-bottle-div .bottle .svg-container {
+    width: 500px; /* Increase the size of the bottle */
+    height: auto;
+}
+
+#selected-bottle-div .bottle {
+    transform: translateX(-70%); /* Adjust this value as necessary */
+}
+
+#preset-colors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#bottle-bases {
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: space-around; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    margin-bottom: 50px; /* add space between bottles and buttons */
+}
+
+.preset-color {
+    width: 30px; /* Reduce size of preset colors */
+    height: 30px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#color-tools {
+    display: flex;
+    justify-content: space-between;
+    width: 40%; /* Reduce width even more */
+    margin: 20px auto;
+}
+
+#color-picker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#preset-patterns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/**/
+
+#pattern-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+}
+
+#patterned-bottle-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width to center the content */
+    height: auto;
+    margin-bottom: 20px; /* Space between the bottle and patterns */
+}
+
+#patterned-bottle-div .bottle .svg-container {
+    width: 300px; /* Increase the size of the bottle */
+    height: auto;
+}
+/**/
+
+.preset-pattern {
+    width: 30px; /* Reduce size of preset patterns */
+    height: 30px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#pattern-tools {
+    display: flex;
+    justify-content: space-between;
+    width: 40%; /* Reduce width even more */
+    margin: 20px auto;
+}
+
+#clear-pattern-button {
+    align-self: center;
+}
+
+#pattern-selection, #selected-bottle-div-pattern {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selected-bottle-div-pattern > div {
+    margin-bottom: 20px;
+}
+
+#selected-bottle-div-pattern .bottle .svg-container {
+    position: relative;
+    width: 500px; /* Increase the size of the bottle */
+    height: auto;
+}
+
+#selected-bottle-div-pattern .bottle {
+    transform: translateX(-70%); /* Adjust this value as necessary */
+}
+
+
+
+/* adjust layout for smaller screens */
+@media (max-width: 600px) {
+    #bottle-bases {
+        grid-template-columns: repeat(2, 1fr);  /* only 2 bottles per row on small screens */
+    }
+}
+
+/* adjust layout for larger screens */
+@media (min-width: 601px) {
+    #bottle-bases {
+        grid-template-columns: repeat(4, 1fr);  /* 4 bottles per row on large screens */
+    }
+}
+
+/* adjust layout for smaller screens */
+@media (max-width: 600px) {
+    #bottle-bases {
+        max-width: 300px;  /* reduce max-width for smaller screens */
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Message in a Bottle</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&family=Open+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    
+    <div id="title-screen">
+        <h1>Create Your own Bottle!</h1>
+        <img src="assets/display_image.png" alt="Display Image">
+        <button id="play-button">Play</button>
+    </div>
+
+    <!-- bottle selection screen -->
+    <div id="bottle-selection-screen">
+        <h1>Select a bottle base</h1>
+        <div id="bottle-bases">
+            <div class="bottle" data-bottle-src="assets/bottle1.svg"></div>
+            <div class="bottle" data-bottle-src="assets/bottle2.svg"></div>
+            <div class="bottle" data-bottle-src="assets/bottle3.svg"></div>
+            <div class="bottle" data-bottle-src="assets/bottle4.svg"></div>
+            <div class="bottle" data-bottle-src="assets/bottle5.svg"></div>
+            <div class="bottle" data-bottle-src="assets/bottle6.svg"></div>
+            <div class="bottle" data-bottle-src="assets/bottle7.svg"></div>
+            <!-- add more bottles here -->
+        </div>
+        <button id="back-button-bottle" class="back-button">Back</button>
+        <button id="next-button">Next</button>
+        <button id="restart-button-bottle" class="restart-button">Restart</button>
+    </div>
+
+    <!-- Color Selection Screen -->
+    <div id="color-selection" style="display: none;">
+        <h2>Now select a color for your bottle:</h2>
+        <div id="color-tools">
+            <div id="preset-colors">
+                <div class="preset-color" style="background-color: #FFB6C1;"></div>
+                <div class="preset-color" style="background-color: #96bfff;"></div>
+                <div class="preset-color" style="background-color: #5f68e6;"></div>
+                <div class="preset-color" style="background-color: #8ed683;"></div>
+                <div class="preset-color" style="background-color: #c94242;"></div>
+                <div class="preset-color" style="background-color: #faa24b;"></div>
+                <div class="preset-color" style="background-color: #ffe261;"></div>
+                <div class="preset-color" style="background-color: #7838a6;"></div>
+                <!-- Add more preset colors here -->
+            </div>
+            <div id="color-picker-container">
+                <label for="color-picker">Custom Color:</label>
+                <input type="color" id="color-picker">
+            </div>
+        </div>
+        <div id="selected-bottle-div">
+            <!-- The selected bottle will be displayed here. -->
+        </div>
+        <button id="back-button-color" class="back-button">Back</button>
+        <button id="color-next-button">Next</button>
+        <button id="restart-button-color" class="restart-button">Restart</button>
+    </div>
+
+        <!-- Pattern Selection Screen -->
+    <div id="pattern-selection" style="display: none;">
+        <h2>Select a pattern for your bottle:</h2>
+        <div id="pattern-tools">
+            <div id="preset-patterns">
+                <div class="preset-pattern" data-pattern-src="assets/pattern1.png" style="background-image: url('assets/pattern1.png');"></div>
+                <div class="preset-pattern" data-pattern-src="assets/pattern2.png" style="background-image: url('assets/pattern2.png');"></div>
+                <div class="preset-pattern" data-pattern-src="assets/pattern3.png" style="background-image: url('assets/pattern3.png');"></div>
+                <div class="preset-pattern" data-pattern-src="assets/pattern4.png" style="background-image: url('assets/pattern4.png');"></div>
+                <div class="preset-pattern" data-pattern-src="assets/pattern5.png" style="background-image: url('assets/pattern5.png');"></div>
+                <div class="preset-pattern" data-pattern-src="assets/pattern6.png" style="background-image: url('assets/pattern6.png');"></div>
+                <div class="preset-pattern" data-pattern-src="assets/pattern7.png" style="background-image: url('assets/pattern7.png');"></div>
+                <div class="preset-pattern" data-pattern-src="assets/pattern8.png" style="background-image: url('assets/pattern8.png');"></div>
+                <!-- There are more patterns here -->
+            </div>
+        </div>
+
+         <!-- Add this div for displaying the selected bottle in the pattern selection screen -->
+        <div id="patterned-bottle-div">
+            <!-- The cloned bottle will be displayed here -->
+        </div>
+        
+        <button id="back-button-pattern" class="back-button">Back</button>
+        <button id="pattern-next-button">Next</button>
+        <button id="restart-button-pattern" class="restart-button">Restart</button>
+    </div>
+
+    <style>
+        :root {
+          --color: #fff;
+        }
+    </style>
+
+    <script src="script.js"></script>
+</body>
+</html>
