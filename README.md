@@ -34,20 +34,20 @@ To run this Bottle Art Game locally, follow these steps:
    - Click the "Play" button to begin.
 
 2. **Select a Bottle:**
-   - Choose a bottle shape from the selection screen.
+   - Choose one of the bottle shapes from the selection screen.
 
 3. **Customize the Bottle:**
    - Select a color using the preset options or the color picker.
-   - Apply patterns to the bottle in the pattern selection screen.
+   - Apply patterns to the background of the bottle in the pattern selection screen.
 
 4. **Enjoy Your Design:**
-   - Once you're satisfied with your design, you can admire your custom bottle.
+   - Once you're satisfied with your design, you can admire your custom bottle and restart the game.
 
 ## Project Demonstration
 A video demonstration of the what's available of the mini game is available [here](https://drive.google.com/file/d/1Rd1P94m-9oChDdugMonJaE65Q6-I1uxw/view?usp=sharing)
 
 ## Future Improvements
-I understand it's not the shiniest or most polished game, but I believe it was a good start and was able to serve its purpose for the capstone project. Of course, if given the opportunity, I would love to: 
+I understand that as of now, it's not the shiniest or most polished game, but I believe it was a good start and was able to serve its purpose for the capstone project. Of course, if given the opportunity, I would love to: 
 - Implementing the ability to save or share the custom bottle designs.
 - Adding more shapes, colors, and patterns for increased customization options.
 - Improving the user interface for a more engaging experience.
