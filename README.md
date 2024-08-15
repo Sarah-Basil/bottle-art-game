@@ -16,8 +16,7 @@ To run this Bottle Art Game locally, follow these steps:
    I tried to do this two ways: 
     - If you have python installed, you can do the following to start a local host:
     ```bash
-    git clone https://github.com/Sarah-Basil/bottle-art-game.git
-    cd bottle-art-game
+    python -m http.server 8000
     ```
     After that, you can open your web browser and go to http://localhost:8000/index.html
     - Alternatively (and the method I use for its simplicity): you can use a local server (like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for VS Code) to run the game. In VSCode, after you install the Live Server extension, you can simply open the html file, and click on the live server button below to open the mini game in a web browser. 
